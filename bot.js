@@ -4,7 +4,7 @@ const ytdl = require('ytdl-core');
 const request = require('request');
 const devs = ['431150885549113344','244423000802328576'];
 const child_process = require("child_process");
-const adminprefix = "!";
+const adminprefix = "*";
 const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
@@ -14,7 +14,7 @@ const prefix = '&';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`&play`,"https://www.twitch.tv/dark_legend_1003")
+client.user.setGame(`&play`,"https://www.twitch.tv/lovecrazy20")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
