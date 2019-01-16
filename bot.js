@@ -2,15 +2,15 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const request = require('request');
-const devs = ['431150885549113344','244423000802328576'];
+const devs = ['526864822348808193','529368060717432842'];
 const child_process = require("child_process");
-const adminprefix = "*";
+const adminprefix = "s";
 const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '&';
+const prefix = 's';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
